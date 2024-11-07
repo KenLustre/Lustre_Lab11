@@ -18,7 +18,7 @@ if x == 0:
     passing_percentage = (passed / len(list)) * 100
     print(f"Average Grade: {ave: .2f}")
     print(f"No. of Students Passed: {passed}")  
-    print(f"Passing Score: {int(passing_percentage)}%")
+    print(f"Passing %: {int(passing_percentage)}%")
 else:
     print("Invalid Grade. Please enter a valid grade between 40 and 1")
 
